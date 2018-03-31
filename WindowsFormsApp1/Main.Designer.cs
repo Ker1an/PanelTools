@@ -32,10 +32,10 @@
 			this.button1 = new System.Windows.Forms.Button();
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
-			this.tabPage2 = new System.Windows.Forms.TabPage();
-			this.tabPage3 = new System.Windows.Forms.TabPage();
 			this.button2 = new System.Windows.Forms.Button();
+			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.button3 = new System.Windows.Forms.Button();
+			this.tabPage3 = new System.Windows.Forms.TabPage();
 			this.tabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.tabPage2.SuspendLayout();
@@ -73,6 +73,15 @@
 			this.tabPage1.Text = "Инфо";
 			this.tabPage1.UseVisualStyleBackColor = true;
 			// 
+			// button2
+			// 
+			this.button2.Location = new System.Drawing.Point(173, 70);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(97, 46);
+			this.button2.TabIndex = 0;
+			this.button2.Text = "button2";
+			this.button2.UseVisualStyleBackColor = true;
+			// 
 			// tabPage2
 			// 
 			this.tabPage2.Controls.Add(this.button3);
@@ -81,8 +90,17 @@
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
 			this.tabPage2.Size = new System.Drawing.Size(418, 211);
 			this.tabPage2.TabIndex = 1;
-			this.tabPage2.Text = "tabPage2";
+			this.tabPage2.Text = "Прочее";
 			this.tabPage2.UseVisualStyleBackColor = true;
+			// 
+			// button3
+			// 
+			this.button3.Location = new System.Drawing.Point(124, 98);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(54, 26);
+			this.button3.TabIndex = 0;
+			this.button3.Text = "button3";
+			this.button3.UseVisualStyleBackColor = true;
 			// 
 			// tabPage3
 			// 
@@ -93,24 +111,6 @@
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "tabPage3";
 			this.tabPage3.UseVisualStyleBackColor = true;
-			// 
-			// button2
-			// 
-			this.button2.Location = new System.Drawing.Point(173, 70);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(97, 46);
-			this.button2.TabIndex = 0;
-			this.button2.Text = "button2";
-			this.button2.UseVisualStyleBackColor = true;
-			// 
-			// button3
-			// 
-			this.button3.Location = new System.Drawing.Point(124, 98);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(54, 26);
-			this.button3.TabIndex = 0;
-			this.button3.Text = "button3";
-			this.button3.UseVisualStyleBackColor = true;
 			// 
 			// Main
 			// 
