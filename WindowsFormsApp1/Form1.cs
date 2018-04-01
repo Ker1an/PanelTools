@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
 		
 		private void button1_Click(object sender, EventArgs e)
 		{
-			if (textBox2.Text == "Ker1an" & textBox1.Text == "gfytkmeghfdktybzRTHKFYF1122")
+			if (textBox2.Text == "Ker1an" & textBox1.Text == "1qw23er4q")
 			{
 				this.Hide();
 				Main ss = new Main();

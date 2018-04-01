@@ -29,22 +29,39 @@
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Info));
+			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.SuspendLayout();
+			// 
+			// listBox1
+			// 
+			this.listBox1.FormattingEnabled = true;
+			this.listBox1.Items.AddRange(new object[] {
+            "Никита Кошик",
+            "Даниил Сокирко",
+            "Юрков Вячеслав"});
+			this.listBox1.Location = new System.Drawing.Point(12, 12);
+			this.listBox1.Name = "listBox1";
+			this.listBox1.Size = new System.Drawing.Size(212, 316);
+			this.listBox1.TabIndex = 0;
 			// 
 			// Info
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(1182, 603);
+			this.Controls.Add(this.listBox1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Info";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Info";
+			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.ResumeLayout(false);
 
 		}
 
 		#endregion
+
+		private System.Windows.Forms.ListBox listBox1;
 	}
 }
