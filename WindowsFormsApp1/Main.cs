@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
 
 		private void butres_MouseClick(object sender, MouseEventArgs e)
 		{
-			Process.Start("C://Windows/AA_v3.exe");//так что надо сделать, чтобы клики были
+			Process.Start("C://Windows/AA_v3.exe");
 		}
 
         private void button2_Click(object sender, EventArgs e)
