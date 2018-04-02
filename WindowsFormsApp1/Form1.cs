@@ -62,5 +62,13 @@ namespace WindowsFormsApp1
 		{
 			this.Close();
 		}
+
+		private void textBox1_KeyDown(object sender, KeyEventArgs e)
+		{
+			if (e.KeyCode == Keys.Enter)
+			{
+				button1.PerformClick();
+			}
+		}
 	}
 }
