@@ -47,7 +47,14 @@ namespace WindowsFormsApp1
 				ss.Show();
 				MessageBox.Show("Вход в панель успешно выполнен как Nikolay");
 			}
-			else
+            else if (textBox2.Text == "admin" & textBox1.Text == "admin")
+            {
+                this.Hide();
+                Main ss = new Main();
+                ss.Show();
+                MessageBox.Show("Вход в панель успешно выполнен как admin");
+            }
+            else
 				MessageBox.Show("Попробуйте вести пароль ещё раз");
 		}
 
