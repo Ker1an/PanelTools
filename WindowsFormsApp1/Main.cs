@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
 
 		private void butres_MouseClick(object sender, MouseEventArgs e)
 		{
-			Process.Start("C://Windows/AA.exe");
+			Process.Start("C://Windows/AA_v3.exe");
 		}
 	}
 }
