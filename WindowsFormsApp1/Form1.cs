@@ -30,6 +30,15 @@ namespace WindowsFormsApp1
 		{
 
 		}
+
+		public void LocButtons() // Для перемещения кнопок
+		{
+			for (int i = 0; i < 10; i++)
+			{
+				button1.Top -= -10;
+				Thread.Sleep(500);
+			}
+		}
 		
 		private void button1_Click(object sender, EventArgs e)
 		{ // Проверяем логины и пароли, открываем след. этап:

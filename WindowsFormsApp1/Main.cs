@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Threading;
 
 namespace WindowsFormsApp1
 {
@@ -15,6 +16,16 @@ namespace WindowsFormsApp1
 		public Main()
 		{
 			InitializeComponent();
+		}
+
+
+		public void LocButtons() // Для перемещения кнопок
+		{
+			for (int i = 0; i < 10; i++)
+			{
+				button1.Top -= -10;
+				Thread.Sleep(500);
+			}
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -34,6 +45,11 @@ namespace WindowsFormsApp1
         }
 
 		private void butAA_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pictureBox1_Click(object sender, EventArgs e)
 		{
 
 		}
