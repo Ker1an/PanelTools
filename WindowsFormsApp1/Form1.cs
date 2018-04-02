@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
 		}
 		
 		private void button1_Click(object sender, EventArgs e)
-		{
+		{ // Проверяем логины и пароли, открываем след. этап:
 			if (textBox2.Text == "Ker1an" & textBox1.Text == "1qw23er4q")
 			{
 				this.Hide();
@@ -64,7 +64,7 @@ namespace WindowsFormsApp1
 		}
 
 		private void textBox1_KeyDown(object sender, KeyEventArgs e)
-		{
+		{ // При вводе пароля enter = login
 			if (e.KeyCode == Keys.Enter)
 			{
 				button1.PerformClick();
